@@ -1,0 +1,9 @@
+.footer {
+  margin-top: 100px;
+}
+.lists {
+  flex-direction: column;
+}
+.list {
+  color: black;
+}

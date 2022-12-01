@@ -8,9 +8,9 @@ const Footer = () => {
     <>
       <div className="footer">
         <div className="container">
-          <Lists>
-            <ListItem title="About" url="#" />
-            <ListItem title="Query" url="#" />
+          <Lists class="foot_lists">
+            <ListItem clas="foot_list" title="About" url="#" />
+            <ListItem clas="foot_list" title="Query" url="#" />
           </Lists>
         </div>
       </div>

@@ -1,11 +1,11 @@
 import React from "react";
 import "./listItem.css";
 
-const ListItem = ({ title, url }) => {
+const ListItem = ({ clas, title, url }) => {
   return (
     <>
       <li>
-        <a className="list" href={url}>
+        <a className={clas} href={url}>
           {title}
         </a>
       </li>

@@ -15,11 +15,11 @@ const Navbar = () => {
               </a>
             </div>
 
-            <Lists>
-              <ListItem title="Home" url="#" />
-              <ListItem title="About" url="#" />
-              <ListItem title="Query" url="#" />
-              <ListItem title="Contact" url="#" />
+            <Lists class="lists">
+              <ListItem clas="list" title="Home" url="#" />
+              <ListItem clas="list" title="About" url="#" />
+              <ListItem clas="list" title="Query" url="#" />
+              <ListItem clas="list" title="Contact" url="#" />
             </Lists>
           </div>
         </div>
